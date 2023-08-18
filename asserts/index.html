@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=East+Sea+Dokdo&family=Handjet&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=East+Sea+Dokdo&family=Handjet&family=Monoton&family=Montserrat:ital,wght@0,200;1,300;1,700&family=Oswald:wght@300&family=Roboto:ital,wght@0,100;0,900;1,400;1,700&family=Rubik+Wet+Paint&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <title>Menu-Drawer</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titre">ESPACE</h1>
+    </header>
+    <nav>
+        <ul>
+            <div>
+                <li onclick="displayMenu('voixLacte')">La voix lactée</li>
+                <div id="voixLacte">
+                    <ul>
+                        <li><a href="otherPage.html">Terre</a></li>
+                        <li><a href="otherPage.html">Jupiter</a></li>
+                        <li><a href="otherPage.html">Mars</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div>
+                <li onclick="displayMenu('lointain')">Andromede</li>
+                <div id="lointain">
+                    <ul>
+                        <li><a href="otherPage.html">Lune</a></li>
+                        <li><a href="otherPage.html">Ozeris</a></li>
+                        <li><a href="otherPage.html">Saturne</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div>
+                <li onclick="displayMenu('koroko')">Le santhor</li>
+                <div id="koroko">
+                    <ul>
+                        <li><a href="otherPage.html">Midorima</a></li>
+                        <li><a href="otherPage.html">Shitaro</a></li>
+                        <li><a href="otherPage.html">Rakuzan</a></li>
+                    </ul>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
